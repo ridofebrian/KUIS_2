@@ -8,6 +8,8 @@ class Kuis20Rido {
         int jumlahKendaraan = 0;
         int lamaParkirTerlama = 0;
         int kendaraanLebihDari3Jam = 0;
+        int nim2 = 243;
+        int batas = (nim2 % 3) + 2;
 
         do {
             System.out.print("Lama parkir (jam, 0 = selesai): ");
